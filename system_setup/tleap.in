@@ -1,0 +1,18 @@
+source leaprc.gaff
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+
+loadamberparams lig/CHO.frcmod
+CHO= loadmol2 lig/CHO.mol2
+check CHO
+
+CHT= loadpdb protein/2cht_amber.pdb
+sys= combine {CHO CHT}
+
+solvatebox sys TIP3PBOX 12.0
+addions sys Na+ 0
+
+savepdb sys step3_pbcsetup.pdb
+saveamberparm sys step3_pbcsetup.parm7 step3_pbcsetup.rst7 
+quit
+
