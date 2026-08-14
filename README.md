@@ -2,6 +2,7 @@
 
 This repository contains system setup files, simulation input files, free-energy data, and analysis scripts associated with the manuscript:
 **“The Effect of Dispersion Corrections to Density Functionals on the Predicted Free Energy Profile of Chorismate Mutase Catalysis"**
+by, 
 Samitha Ranasinghe¹, Richard Van¹, Alberto dos Santos¹, Gabriel Deleon², Yuezhi Mao², and Yihan Shao¹
 ¹ Department of Chemistry, Brandeis University, Waltham, MA 02453, USA
 ² Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182, USA
