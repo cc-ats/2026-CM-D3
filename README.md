@@ -6,6 +6,7 @@ by,
 Samitha Ranasinghe¹, Richard Van¹, Alberto dos Santos¹, Gabriel Deleon², Yuezhi Mao², and Yihan Shao¹
 
 ¹ Department of Chemistry, Brandeis University, Waltham, MA 02453, USA
+
 ² Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182, USA
 
 The repository provides the files used to perform the QM/MM simulations and reproduce the free-energy and energy-reweighting analyses reported in the manuscript.
