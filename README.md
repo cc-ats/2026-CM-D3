@@ -49,6 +49,18 @@ The directory is divided into:
 
 Separate files are provided for each QM-region definition investigated in the manuscript, including the CHO-only QM region and QM regions containing individual active-site residues.
 
+### `almo_eda/`
+
+Example Q-Chem input and output files for ALMO-EDA calculations, the parsing script, and the parsed data.
+
+Contents include:
+
+- `frame0000_eda2_op2_B3LYP-D3BJ_631gd.in`, `frame0000_eda2_op2_B3LYP-D3BJ_631gd.out` — Example input and output files for snapshots from the B3LYP-D3(BJ) trajectory
+- `frame0199_eda2_op2_B3LYP_631gd.out`, `frame0199_eda2_op2_B3LYP_631gd.out` — Example input and output files for snapshots from the B3LYP (without D3) trajectory
+- `parse_eda` — Parsing script (see `readme` for the command executing this script)
+- `EDA_RS_B3LYP_d3bj.csv`, `EDA_TS_B3LYP_d3bj.csv` — Parsed EDA results for snapshots from the B3LYP-D3(BJ) trajectory
+- `EDA_RS_B3LYP_nod3.csv`, `EDA_TS_B3LYP_nod3.csv` — Parsed EDA results for snapshots from the B3LYP (without D3) trajectory
+
 ### `scripts/`
 
 Jupyter notebooks and numerical data used for free-energy analysis and energy reweighting.
