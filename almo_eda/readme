@@ -1,0 +1,2 @@
+The command to use the parsing script:
+./parse_eda -t . --cls_disp --modified --kcal
