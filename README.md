@@ -24,7 +24,6 @@ Contents include:
 - `CHO.frcmod` — additional force-field parameters for chorismate
 - `step3_pbcsetup.parm7` — AMBER topology file for the solvated system
 - `step3_pbcsetup.rst7` — AMBER coordinate/restart file for the solvated system
-- `step3_pbcsetup.pdb` — PDB representation of the prepared system
 - `tleap.in` — tleap input used for system preparation
 
 ### `input_files/`
